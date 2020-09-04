@@ -55,6 +55,7 @@ class MailNotification extends Command
             else {
                 $curl = curl_init();
                 curl_setopt($curl, CURLOPT_URL, "api.openweathermap.org/data/2.5/weather?q=".$value->city."&appid=YOUR_APİ_KEY");
+                sleep (1);
                 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
                 $result = curl_exec($curl);
                 if ($result!=null) {
