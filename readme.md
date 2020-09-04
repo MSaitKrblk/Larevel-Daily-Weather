@@ -12,8 +12,6 @@ Then at users time of choice send them dailt emails about forecast in their citi
 * `composer install`
 * `php artisan key:generate`
 * Create a database and inform *.env*
-* `php artisan migrate --seed` to create and populate tables
-* `php artisan vendor:publish` to publish filemanager
 * `php artisan serve` to start the app on http://localhost:8000/
 
 ### Include ###
